@@ -8,11 +8,11 @@ console.log(risultato);
 
 // funzione
 function add(a,b) {
-    var vuoto = []
+    var vuoto = [];
     for (var i = 0  ; i < a.length; i++) {
         var y = a[i];
         var z = b[i];
-        vuoto.push(y,z)
+        vuoto.push(y,z);
         
     }
     return vuoto;
